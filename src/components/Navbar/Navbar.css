@@ -1,0 +1,8 @@
+.Nav-search input{
+    border-radius: 10px;
+    justify-content: flex-end;
+    margin-left: 99%;
+}
+.Outer-div{
+    display: flex; 
+}

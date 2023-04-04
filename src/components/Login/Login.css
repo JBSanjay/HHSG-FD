@@ -1,0 +1,66 @@
+.log-user,.log-pass{
+   color:rgb(4, 4, 136);
+
+   margin-left: auto;
+   margin-right: auto;
+}
+.outer{
+    /* background-image:url("../../img/bookcase-books-bookshelves-270571\ \(1\).jpg"); */
+    /* width:%; */
+    height:100%;
+    /* z-index: 1; */
+}
+.log-outer-div{
+    /* border:1px solid black; */
+    /* margin-right:auto; */
+    /* margin-left:auto; */
+    margin: auto;
+    margin-top: auto;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin-top:220px;
+    height: 310px;
+    box-shadow: 5px 5px 30px #75777f;
+    border-radius: 10px;
+    /* background-image:url("../../img/bookcase-books-bookshelves-270571\ \(1\).jpg"); */
+    align-items: center;
+}
+.log-outer-div h1{
+    display: flex;
+    justify-content: center;
+    color: linear-gradient(to bottom, #3333ff 0%, #00ffff 100%);
+}
+.log-outer-div button{
+    background:linear-gradient(90deg, rgb(25, 25, 158) 0%, rgba(0,212,255,1) 100%);
+    margin-top: 80px;
+    margin-left: 39%;
+    width:80px;
+    color: rgb(251, 252, 253);
+    height:30px;
+    border-radius: 15px;
+    border:none;
+}
+.log-outer-div h1{
+    letter-spacing: 5px;
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    color: #131315;
+}
+.log-user input,.log-pass input{
+    border: none;
+    border-bottom: 2px solid rgb(141, 138, 138);
+    width: 200px;
+    margin-left: 80px;
+}
+.log-pass label,.log-user label{
+    margin-left:80px;
+    
+}
+.log-outer-div a{
+    justify-content: center;
+    align-items: center;
+    color: #2949c7;
+}
+
