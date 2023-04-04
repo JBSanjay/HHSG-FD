@@ -1,7 +1,7 @@
 import Login from "./components/Login/Login";
 import {Routes, BrowserRouter as Router, Route} from 'react-router-dom';
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Main/Home";
+import DetailPage from "./components/Detail Page/DetailPage";
 function App() {
   return (
     // <div className="App">
@@ -11,6 +11,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Login/>}/>
         <Route path="/home" element={<Home/>}/>
+        <Route path="/home/:id" element={<DetailPage/>}/>
       </Routes>
      </Router>
     // </div>
