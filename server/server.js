@@ -1,8 +1,8 @@
 import express from 'express';
-import dummy from './schema/dummy.js';
+
 import mongoose from 'mongoose';
 // var Teewt = require('mongoose').model('Teewt');
-import {user} from './schema/UserSchema.js';
+import user from './schema/UserSchema.js';
 
 const app=express();
 
